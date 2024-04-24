@@ -1,0 +1,20 @@
+.Item {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Item .btn {
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    background-color: rgb(255, 125, 38);
+    padding: 10px;
+    text-align: center;
+}
+
+.Item p {
+    font-size: 20px;
+}
