@@ -1,13 +1,13 @@
-.Admin {
-
+.AdminChangeCalc {
     min-height: calc(100vh - 70px - 70px);
     text-align: center;
     background-color: rgb(255, 255, 255);
     max-width: 100%;
     flex-wrap: wrap;
+
 }
 
-.Admin input {
+.AdminChangeCalc input {
     cursor: pointer;
     flex-wrap: wrap;
     max-width: 100%;
@@ -18,8 +18,7 @@
     color: rgb(255, 125, 38);
 }
 
-
-.Admin  button {
+.AdminChangeCalc button {
     cursor: pointer;
     flex-wrap: wrap;
     max-width: 100%;
@@ -30,30 +29,25 @@
     color: white;
 }
 
-.Admin  p {
-    flex-wrap: wrap;
-    max-width: 100%;
+.AdminChangeCalc p,
+.AdminChangeCalc .to-admin {
     text-align: center;
-    font-size: 20px;
+    font-size: x-large;
+    margin-bottom: 30px;
 }
 
-.op {
-    margin-right: 30px;
+@media (max-width: 768px) {
+    .AdminChangeCalc {
+        width: 300px;
+    }
+
+    .AdminChangeCalc p,
+    .AdminChangeCalc .to-admin {
+        font-size: larger;
+    }
 }
 
-.calc-delete, .calc-edit {
-    cursor: pointer;
-    width: 200px;
-    flex-wrap: wrap;
-    max-width: 100%;
-    display: block;
-    padding: 8px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: rgb(255, 125, 38);
-    color: white;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
+a {
+    color: black;
     text-decoration: none;
 }

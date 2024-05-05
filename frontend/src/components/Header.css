@@ -1,15 +1,18 @@
 .Header {
+
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     max-width: 100%;
     padding-right: 30px;
     padding-left: 30px;
     height: 70px;
+
 }
 
 .HeaderLink {
+    margin-left: 10px;
     flex-wrap: wrap;
     max-width: 100%;
     font-size: 30px;
@@ -22,7 +25,20 @@
     flex-wrap: wrap;
     max-width: 100%;
     font-size: 20px;
+    font-weight: bolder;
     font-weight: normal;
-    margin: auto;
-    color: rgb(255, 125, 38);
+
+    color: #000000;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(255, 125, 38);
+    color: white;
 }

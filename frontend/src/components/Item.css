@@ -1,11 +1,12 @@
 .Item {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
-.Item .btn {
+.btn {
+
     height: 20px;
     border-radius: 10px;
     border-style: none;
@@ -15,6 +16,13 @@
     text-align: center;
 }
 
+.btn:hover {
+    cursor: pointer;
+
+}
+
 .Item p {
+
     font-size: 20px;
 }
+
